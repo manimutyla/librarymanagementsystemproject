@@ -9,8 +9,6 @@ import com.capgemini.librarymanagementsystemjdbc.dto.BookBean;
 
 
 public interface AdminDAO {
-	
-	
 	int update(BookBean book);
 	int delete(int bId);
 	int addBook(BookBean info);
@@ -20,6 +18,4 @@ public interface AdminDAO {
 	BookBean searchBookAuthor(String bAuthor);
 	BookBean searchBookType(int bookType);
 	boolean issueBook(int bId, String email);
-	
-	
 }

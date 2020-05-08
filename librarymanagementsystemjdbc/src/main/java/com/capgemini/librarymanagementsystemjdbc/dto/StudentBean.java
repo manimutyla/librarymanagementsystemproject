@@ -1,6 +1,7 @@
 package com.capgemini.librarymanagementsystemjdbc.dto;
 
 public class StudentBean {
+
 	private String name;
 	private String id;
 	private long mobile;

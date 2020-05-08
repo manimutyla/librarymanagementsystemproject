@@ -1,6 +1,5 @@
 package com.capgemini.librarymanagementsystemjdbc.dao;
 
-import com.capgemini.librarymanagementsystemjdbc.dto.AdminBean;
 import com.capgemini.librarymanagementsystemjdbc.dto.UserBean;
 
 public interface UserDAO {

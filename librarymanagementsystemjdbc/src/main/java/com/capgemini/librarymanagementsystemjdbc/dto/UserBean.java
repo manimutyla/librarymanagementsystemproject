@@ -1,6 +1,7 @@
 package com.capgemini.librarymanagementsystemjdbc.dto;
 
 public class UserBean {
+
 	private String name;
 	private int id;
 	private long mobile;
@@ -43,5 +44,5 @@ public class UserBean {
 	public void setRole(String role) {
 		this.role = role;
 	}
-	
 }
+

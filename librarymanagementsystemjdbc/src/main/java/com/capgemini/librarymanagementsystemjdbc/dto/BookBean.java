@@ -1,6 +1,7 @@
 package com.capgemini.librarymanagementsystemjdbc.dto;
 
 public class BookBean {
+
 	private String name;
 	private int id;
 	private String author;

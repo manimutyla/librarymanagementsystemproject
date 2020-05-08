@@ -1,7 +1,7 @@
 package com.capgemini.librarymanagementsystemjdbc.dto;
 
 public class AdminBean {
-	
+
 	private String aname;
 	private int aid;
 	private long mobile;
