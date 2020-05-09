@@ -6,5 +6,5 @@ public interface UserDAO {
 
 	boolean register(UserBean bean);
 	UserBean auth(String email, String password);
-}
 
+}

@@ -1,15 +1,17 @@
 package com.capgemini.librarymanagementsystemspring.service;
 
+import java.util.LinkedList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 
 import com.capgemini.librarymanagementsystemspring.dao.StudentDAO;
 import com.capgemini.librarymanagementsystemspring.dto.BookBean;
-
+//import com.capgemini.librarymanagementsystemspring.factory.StudentFactory;
 @Service
-public class StudentServiceImplementation implements StudentService{
+public class StudentServiceImp implements StudentService{
 	@Autowired
 	private StudentDAO dao;
 	@Override

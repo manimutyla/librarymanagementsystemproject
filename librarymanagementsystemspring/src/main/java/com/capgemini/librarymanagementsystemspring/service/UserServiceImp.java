@@ -5,14 +5,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.stereotype.Service;
 
 import com.capgemini.librarymanagementsystemspring.dao.UserDAO;
-import com.capgemini.librarymanagementsystemspring.dao.UserDAOImplementation;
+import com.capgemini.librarymanagementsystemspring.dao.UserDAOImp;
 import com.capgemini.librarymanagementsystemspring.dto.UserBean;
-
+//import com.capgemini.librarymanagementsystemspring.factory.UserFactory;
 @Service
-public class UserServiceImplementation implements UserService {
+public class UserServiceImp implements UserService{
 	@Autowired
-	private UserDAO dao;
-
+private UserDAO dao;
+//	UserDAOImp dao = new UserDAOImp();
 	@Override
 	public boolean register(UserBean bean) {
 		return dao.register(bean);

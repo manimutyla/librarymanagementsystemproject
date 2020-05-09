@@ -1,8 +1,8 @@
 package com.capgemini.librarymanagementsystemspring.dao;
 
 import java.util.List;
-
 import com.capgemini.librarymanagementsystemspring.dto.BookBean;
+
 
 public interface AdminDAO {
 	boolean update(BookBean book);
